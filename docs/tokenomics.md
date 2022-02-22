@@ -7,7 +7,7 @@ Network: `FTM`
 
 - Total Supply: `100,000,000,000`
 - Presale (through pinksale): 40% `400,000,000`
-- Private sale (Limited slots / 250 FTM (~$500) USD max per person): 10% `10,000,000,000`
+- Private sale (Limited slots / 300 FTM (~$500) USD max per person): 10% `10,000,000,000`
 - Team tokens (vested and locked for 6 months): 5% `5,000,000,000`
 - Initial added liquidiy 10% - `10,000,000,000`
 
