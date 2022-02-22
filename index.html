@@ -1,0 +1,72 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>📖 WHATtheHEC Docs & Whatpaper</title>
+<meta name=description content="The docs, contract info & whitepaper for WHAT.">
+<meta name=viewport content="width=device-width">
+<link href=https://cdn.jsdelivr.net/npm/microdoc@0/microdoc.css rel=stylesheet>
+<script src=https://cdn.jsdelivr.net/npm/microdoc@0/microdoc.js defer></script>
+<script src=https://cdn.jsdelivr.net/npm/microdoc@0/plugin/search.js defer></script>
+<script src=https://cdn.jsdelivr.net/npm/microdoc@0/plugin/dark-mode.js defer></script>
+<script src=https://cdn.jsdelivr.net/npm/microdoc@0/plugin/preload.js defer></script>
+<script src=https://cdn.jsdelivr.net/npm/microdoc@0/plugin/prevnext.js defer></script>
+
+<script>
+  var microdoc = {
+    root: "https://docs.whatdahec.com/docs",
+    // root: "https://raw.githubusercontent.com/WHATtheHEC-docs/master/docs".
+    // root: "https://docs.whatdahec.com/docs",
+    routes: [
+      { name: "Welcome", path: "welcome.md" },
+      { name: "📌 Disclaimer", path: "disclaimer.md" },
+      { name: "📋 Introduction", path: "introduction.md" },
+      { name: "📈 Markets", path: "markets.md" },
+      { name: "🧬 Roadmap", path: "roadmap.md" },
+      { name: "🪙 Tokenomics", path: "tokenomics.md" },
+      { name: "🔑 Security", path: "security.md" },
+      { name: "💸 How To Buy", path: "how-to-buy.md" },
+      { name: "⚙️ Staking Rewards", path: "staking-hec.md" }, 
+      {
+        path: "token-info", children: [
+          "presale.md", "contracts.md"]
+      },
+      {
+        name: "📋 Useful Links", path: "useful-links", children: [
+          "website.md", "certik-audit.md"] 
+      },
+    ],
+      
+
+      darkMode: matchMedia("(prefers-color-scheme: dark)").matches,
+      
+      darkMode: 'true'
+
+  };
+</script>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+  :root {
+
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+  }
+
+  /* Remove Underline / add underline on hover etc */
+  a {
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: underline;
+  }
+
+  /* Force Open Useful Links nested menu */ 
+
+  /* */
+
+  hr { color: #292929; }
+
+</style>
+
