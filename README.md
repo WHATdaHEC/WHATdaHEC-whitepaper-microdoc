@@ -6,7 +6,7 @@ Powered by [microdoc](https://microdoc.js.org/)
 
 ## Licence
 
-The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/WHATdaHEC/WHATdaHEC/blob/master/LICENSE).
+The contents of this repo are licensed under Apache-2.0. See [LICENCE](https://github.com/WHATdaHEC/.github/blob/main/LICENSE).
 
 -----
 
