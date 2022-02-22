@@ -1,4 +1,4 @@
-# What da HEC! WhitePaper & Docs
+# What da HEC! Whatpaper & Docs
 
 The whitepaper minidocsite - [docs.WhatDaHec.com](https://docs.whatdahec.com), is rendered from this repo.
 
